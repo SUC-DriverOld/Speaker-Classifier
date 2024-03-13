@@ -22,13 +22,13 @@
 4.  若使用 SVM 模型进行分类：
 
     ```bash
-    python use_svm.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
+    python use_svm.py -n SPEAKER_NUM
     ```
 
     若使用 XGboost 模型进行分类：
 
     ```bash
-    python use_xgboost.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
+    python use_xgboost.py -n SPEAKER_NUM
     ```
 
 > [!NOTE]
