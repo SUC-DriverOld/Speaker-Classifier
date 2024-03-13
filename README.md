@@ -40,3 +40,5 @@
 > 3. `-n`, `--speaker_num`：需要分类的说话人数目，默认为 `5`。
 > 4. 分类结果会以 `speaker_{num}` 命名，以单个文件夹形式，输出在 `output` 文件夹中。logs 文件夹内输出特征提取模型 `features.pkl`。若存在此文件，则下次运行时会直接读取特征，无需重新提取。除了输出 `features.pkl` 外，还会输出一张将特征降至二维的分布图，展示分类结果。
 > 5. 若需要分类其他数据，请先清空 `logs` 文件夹和 `output` 文件夹内的内容!
+
+![image1](./logs/speakers_distribution_svm.png)

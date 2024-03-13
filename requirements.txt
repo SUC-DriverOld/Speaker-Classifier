@@ -1,0 +1,9 @@
+numpy
+librosa
+sklearn
+shutil
+tqdm
+matplotlib
+argparse
+pickle
+xgboost
