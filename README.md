@@ -21,15 +21,15 @@
 3.  将你需要进行分类的音频文件放入 `dataset` 文件夹中，支持多条，长短不限
 4.  若使用 SVM 模型进行分类：
 
-        ```bash
-        python use_svm.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
-        ```
+    ```bash
+    python use_svm.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
+    ```
 
     若使用 XGboost 模型进行分类：
 
-        ```bash
-        python use_xgboost.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
-        ```
+    ```bash
+    python use_xgboost.py -i INPUT_DIR -o OUTPUT_DIR -n SPEAKER_NUM
+    ```
 
 > [!NOTE]
 >
